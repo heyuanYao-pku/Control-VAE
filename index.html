@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<!-- this html is inspired by  https://xbpeng.github.io/projects/ASE/index.html -->
+<head>
+    <title>ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters</title>
+    
+    <style>
+div {
+  padding-top: 50px;
+  padding-right: 10%;
+  padding-bottom: 50px;
+  padding-left: 10%;
+}
+</style>
+</head>
+
+<body>
+    
+    <div>
+
+        <center>
+            <h1>ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters</h1>
+        </center>
+
+        <td>
+            <center>
+                Transactions on Graphics (Proc. ACM SIGGRAPH Asia 2022)<br>
+                <br>
+                <nobr> <a href='https://heyuanyao-pku.github.io/'>Heyuan Yao</a></nobr> &emsp;&emsp; <nobr>Zhenhua Song</nobr> &emsp;&emsp; <nobr> <a href='https://cfcs.pku.edu.cn/baoquan/'>Baoquan Chen</a></nobr>
+                &emsp;&emsp; <nobr><a href='http://libliu.info/'>Libin Liu†</a></nobr> <br>
+                <br>
+                <nobr>SCS & KLMP (MOE), Peking University </nobr><br>
+                <br>
+                <img style="vertical-align:middle" src="static/teaser-new.png" width="100%" height="inherit" />
+            </center>
+        </td>
+
+        <br>
+
+        <td>
+            <hr>
+            <h3 style="margin-bottom:10px;">Abstract</h3>
+            In this paper, we introduce ControlVAE, a novel model-based framework for learning generative motion control
+            policies based on variational autoencoders (VAE). Our framework can learn a rich and flexible latent
+            representation of skills and a skill-conditioned generative control policy from a diverse set of unorganized
+            motion sequences, which enables the generation of realistic human behaviors by sampling in the latent space
+            and allows high-level control policies to reuse the learned skills to accomplish a variety of downstream
+            tasks. In the training of ControlVAE, we employ a learnable world model to realize direct supervision of the
+            latent space and the control policy. This world model effectively captures the unknown dynamics of the
+            simulation system, enabling efficient model-based learning of high-level downstream tasks. We also learn a
+            state-conditional prior distribution in the VAE-based generative control policy, which generates a skill
+            embedding that outperforms the non-conditional priors in downstream tasks. We demonstrate the effectiveness
+            of ControlVAE using a diverse set of tasks, which allows realistic and interactive control of the simulated
+            characters.
+        </td>
+
+        <td>
+            <h3> Paper: [<a href="static/author_version.pdf">PDF</a>]  &nbsp; &nbsp; &nbsp;  Preprint: [<a
+                    href="https://arxiv.org/abs/2210.06063">arXiv</a>] &nbsp; &nbsp; &nbsp; Code: [<nobr>Coming Soon</nobr>]</h3>
+        </td>
+
+
+        <br>
+        <br>
+    
+        <td>
+            <center><video width=60%  controls autoplay="autoplay">
+            <source src="static\supplementary.mp4" type="video/mp4"></video>
+            </center>
+            
+        
+        </td>
+        
+
+    
+
+
+    </div>
+</body>
+
+
+
+</html>
