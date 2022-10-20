@@ -6,23 +6,31 @@
     <title>ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters</title>
 
     <style>
-        div {
-            padding-top: 50px;
-            padding-right: 10%;
-            padding-bottom: 50px;
-            padding-left: 10%;
+        .div-plain {
+            padding-right: 15%;
+            padding-left: 15%;
+            font-size: medium;
         }
+        .div-grey {
+            padding-left: 5%;
+            /* padding-right: 5%; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: medium;
+            background-color: #f2f2f2;
+        }
+        
     </style>
+
+    
 </head>
 
 <body>
 
-    <div>
-
-        <center>
+    <div class="div-plain">
+    <center>
             <h1>ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters</h1>
-        </center>
-
+    </center>
         <td>
             <center>
                 Transactions on Graphics (Proc. ACM SIGGRAPH Asia 2022)<br>
@@ -73,21 +81,94 @@
 
         <br>
         <br>
-
+    </div>
+    <div class = "div-plain">
+    <div class="div-grey" >
         <td>
-            <center><video width=60% controls autoplay="autoplay">
-                    <source src="static\supplementary.mp4" type="video/mp4">
-                </video>
-            </center>
-
-
+            <p style="font-size:large;">
+                Prediction of world model:
+            </p>
         </td>
 
-        <!-- <iframe width="884" height="497" src="https://www.youtube.com/embed/ELZ7m4rLCgk" title="[SIGAsia 22] ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <td>
+            <center>
+                <p>
+                    <img style="vertical-align:middle" src="static/gif/prediction.gif" width="40%" height="inherit" />
+                </p>
+            </center>
+        </td>
 
+        <td>
+            <p style="font-size:large;">
+                Random sampling in the latent space:
+            </p>
+        </td>
+
+        <td>
+            <center>
+                <p>
+                    <img style="vertical-align:middle" src="static/gif/CrowdSimulation.gif" width="29%"
+                        height="inherit" />
+                    <img style="vertical-align:middle" src="static/gif/dance1.gif" width="29%" height="inherit" />
+                </p>
+            </center>
+        </td>
+
+        <td>
+            <p style="font-size:large;">
+                Speed/Style and direction control with user input:
+            </p>
+        </td>
+
+        <td>
+            <center>
+                <p>
+                    <img style="vertical-align:middle" src="static/gif/speed.gif" width="29%" height="inherit" />
+                    <img style="vertical-align:middle" src="static/gif/skill.gif" width="29%" height="inherit" />
+                </p>
+            </center>
+        </td>
+
+        <td>
+            <p style="font-size:large;">
+                Resistance to external perturbations:
+            </p>
+        </td>
+
+        <td>
+            <center>
+                <p>
+                    <img style="vertical-align:middle" src="static/gif/push.gif" width="29%" height="inherit" />
+                    <img style="vertical-align:middle" src="static/gif/box.gif" width="29%" height="inherit" />
+                </p>
+            </center>
+        </td>
+
+        <td>
+            <p style="font-size:large;">
+                For more details, please refer to <a
+                    href="https://arxiv.org/abs/2210.06063">our paper</a>.
+            </p>
+        </td>
+
+    
+
+    <td>
+        <center><video width=50% controls>
+                <source src="static\supplementary.mp4" type="video/mp4">
+            </video>
+        </center>
+
+    </td>
 
 
     </div>
+    </div>
+    <!-- <iframe width="884" height="497" src="https://www.youtube.com/embed/ELZ7m4rLCgk" title="[SIGAsia 22] ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+
+
+    <!-- </div> -->
 </body>
 
 
