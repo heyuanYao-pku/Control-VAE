@@ -32,7 +32,7 @@ Speed/Style and direction control:
 Resistance to external perturbations:
 
 <p align=center>
-<img src='Figure/speed.gif' width='40%'> </img><img src='Figure/skill.gif' width='40%'> </img>
+<img src='Figure/PushForceLong-v2.gif' width='40%'> </img><img src='Figure/box.gif' width='40%'> </img>
 </p>
 
 ***
