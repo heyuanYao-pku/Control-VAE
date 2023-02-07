@@ -2,10 +2,11 @@
 <img src='Figure/teaser.png' width='100%'> </img>
 </p>
 
-# ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters
+<font size=6>ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters </font>
 
 [Heyuan Yao](https://heyuanyao-pku.github.io/), [Zhenhua Song](http://songzhenhua.cn/), [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/), [Libin Liu](http://libliu.info/)
 
+***
 A reimplemention of Siggraph Asia 2022 paper [ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters](https://heyuanyao-pku.github.io/Control-VAE/).
 
 Please note that we are not able to guarantee that the codes will work if it is run with settings that we did not intend when we developed for the project. We would appreciate it if users could report the problems when they find it.
