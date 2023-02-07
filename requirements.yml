@@ -1,0 +1,14 @@
+name: control-vae
+dependencies:
+  - python=3.8
+  - pyyaml
+  - mpi4py
+  - numpy
+  - scipy
+  - cython
+  - cmake
+  - torchvision
+  - numba
+  - psutil
+  - opt_einsum
+  - tensorboardx

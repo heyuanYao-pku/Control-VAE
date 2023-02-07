@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.2)
+PROJECT(SimuDraw)
+add_compile_definitions(dDOUBLE)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../../include)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../../src)
+link_directories(${CMAKE_CURRENT_SOURCE_DIR}/../../Debug)
+
+add_executable(${PROJECT_NAME} drawByWorld.cpp)
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup")
+target_link_libraries(${PROJECT_NAME} DrawStuff.lib ModifyODE.lib)
+# file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/../../Debug/DrawStuff.dll DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/build/Debug)
