@@ -10,7 +10,7 @@ A reimplemention of Siggraph Asia 2022 paper [ControlVAE: Model-Based Learning o
 
 Please note that we are not able to guarantee that the codes will work if it is run with settings that we did not intend when we developed for the project. We would appreciate it if users could report the problems when they find it.
 
-## Before Training
+## Install
 
 build conda from `requirements.yml`
 
