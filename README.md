@@ -2,7 +2,8 @@
 <img src='Figure/teaser.png' width='100%'> </img>
 </p>
 
-<font size=6>ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters </font>
+
+# ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters
 
 [Heyuan Yao](https://heyuanyao-pku.github.io/), [Zhenhua Song](http://songzhenhua.cn/), [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/), [Libin Liu](http://libliu.info/)
 
