@@ -1,4 +1,10 @@
+<p align=center>
+<img src='Figure/teaser.png' width='100%'> </img>
+</p>
+
 # ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters
+
+[Heyuan Yao](https://heyuanyao-pku.github.io/), [Zhenhua Song](http://songzhenhua.cn/), [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/), [Libin Liu](http://libliu.info/)
 
 A reimplemention of Siggraph Asia 2022 paper [ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters](https://heyuanyao-pku.github.io/Control-VAE/).
 
@@ -42,7 +48,7 @@ For example, you can run `PlayGround\random_playground.py`, which will ask for a
 OneDrive:
 https://1drv.ms/u/s!AhVw0PSSGV0TmSfCdXQO7iwTyFwN?e=wKelcs
 
-for Chinese users:
+PKU Disk:
 https://disk.pku.edu.cn:443/link/664B7E3BC3E7FF3F240E3C99312A5C6C
 valid until：2027-08-31 23:59
 ```
