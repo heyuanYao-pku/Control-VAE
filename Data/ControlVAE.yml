@@ -1,0 +1,52 @@
+---
+env:
+  scene_fname: Data\Misc\world.json
+  fps: 20
+  substep: 1
+
+bvh_folder: ./Data/ReferenceData/runwalkjumpgetup
+motion_dataset: ./Data/ReferenceData/binary_data/runwalkjumpgetup.pickle
+collect_size: 2048
+
+encoder:
+  hidden_layer_size: 512
+  hidden_layer_num: 2
+  activation: ELU
+  fix_var: 0.3
+
+actor:
+  hidden_layer_size: 512
+  hidden_layer_num: 3
+  activation: ELU
+  num_experts: 6
+  gate:
+    hidden_layer_size: 64
+
+controlvae:
+  rollout_length: 24
+  batch_size: 512
+  lr: 0.00001
+  weight:
+    avel: 0.5
+    height: 1.2
+    kl: 0.1
+    l1: 0.01
+    l2: 0.001
+    pos: 0.2
+    rot: 0.1
+    up_dir: 3
+    vel: 0.5
+
+world_model:
+  rollout_length: 8
+  batch_size: 512
+  hidden_layer_size: 512
+  hidden_layer_num: 4
+  activation: ELU
+  lr: 0.002
+  weight:
+    pos: 1
+    rot: 1
+    vel: 4
+    avel: 4
+

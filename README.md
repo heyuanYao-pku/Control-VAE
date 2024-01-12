@@ -19,7 +19,7 @@ build conda from `requirements.yml`
 ```
 conda env create -f requirements.yml
 conda activate control-vae
-conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+conda install pytorch=*=*cuda* torchvision torchaudio cudatoolkit=11.3 -c pytorch
 pip install panda3d
 ```
 
@@ -32,6 +32,15 @@ pip install -e .
 
 Then be sure that your pytorch version >= 11.0, because we need torch.linalg.cross to accelerate code...
 
+
+## Training
+
+Our code needs mpi4py. The main process will be used to train the network and the rest process will be used to collect simulation data. You can simply run:
+```
+mpiexec -n 5 python train_controlvae.py --YOUR_ARGS
+```
+
+You do not need `YOUR_ARGS`` by default.
 
 ## Playing
 
