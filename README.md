@@ -91,7 +91,7 @@ python PlayGround\joystick_playground.py
 }
 ```
 
-<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=Z2l0aHViX3BhdF8xMUFIMktNMlkwNlZCd1Q5SEZ1c25mXzBJQkRKVFVXU3dUemp0YU9wb2p0ak4wZlRHWnlvc2dVYU5CejM4azVRb09FVUlCN1FYNGZlQm9kMmxL#heyuanYao-pku/Control-VAE&Date" frameBorder="0"></iframe>
+[![Star History Chart](https://api.star-history.com/svg?repos=heyuanYao-pku/Control-VAE&type=Date)](https://star-history.com/#heyuanYao-pku/Control-VAE&Date)
 
 ## Some demos:
 
