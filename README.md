@@ -91,9 +91,7 @@ python PlayGround\joystick_playground.py
 }
 ```
 
-
 [![Star History Chart](https://api.star-history.com/svg?repos=heyuanYao-pku/Control-VAE&type=Date)](https://star-history.com/#heyuanYao-pku/Control-VAE&Date)
-
 
 ## Some demos:
 
