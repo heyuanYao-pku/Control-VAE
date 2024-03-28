@@ -59,9 +59,9 @@ For example, you can run `PlayGround\random_playground.py`, which will ask for a
 OneDrive:
 https://1drv.ms/u/s!AhVw0PSSGV0TmSfCdXQO7iwTyFwN?e=wKelcs
 
-PKU Disk:
-https://disk.pku.edu.cn:443/link/664B7E3BC3E7FF3F240E3C99312A5C6C
-valid until：2027-08-31 23:59
+https://disk.pku.edu.cn/link/AAF42D48E8B96945B68F046576406C02D0
+文件夹名：PretrainedModel
+有效期限：2028-04-29 18:56
 ```
 
 please download the config and data files into `Data\Pretrained`, and run.
