@@ -2,7 +2,7 @@
 env:
   scene_fname: Data\Misc\world.json
   fps: 20
-  substep: 1
+  substep: 6
 
 bvh_folder: ./Data/ReferenceData/runwalkjumpgetup
 motion_dataset: ./Data/ReferenceData/binary_data/runwalkjumpgetup.pickle
