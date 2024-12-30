@@ -42,6 +42,12 @@ mpiexec -n 5 python train_controlvae.py --YOUR_ARGS
 
 You do not need `YOUR_ARGS` by default.
 
+Before training, we convert bvh files into a pickle file. You can build your own pickle by running
+
+```
+python build_motion_dataset.py
+```
+
 ## Playing
 
 We offer two tasks now: `random` sampling,  and `joystick` control. Both of them are in in the folder `PlayGround` and can be played by directly run the code.
